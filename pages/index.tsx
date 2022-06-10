@@ -11,6 +11,10 @@ const Home = () => {
         self-improvement. You can catch me around many developer communities,
         involved in some way or another.
       </p>
+      <p>
+        You can get find me on _Twitter_ or _LinkedIn, though I am far more
+        active in checking twitter.
+      </p>
     </div>
   );
 };
