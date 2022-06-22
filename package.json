@@ -44,31 +44,10 @@
       "<rootDir>/.next/",
       "<rootDir>/node_modules/"
     ],
+    "moduleDirectories": [
+      "node_modules",
+      "<rootDir>/"
+    ],
     "testEnvironment": "jsdom"
-  },
-  "wallaby": {
-    "runMode": "onsave",
-    "files": [
-      "pages/**/*.+(j|t)s?(x)",
-      "components/**/*.+(j|t)s?(x)",
-      "styles/**/*.+(j|t)s?(x)",
-      {
-        "pattern": "node_modules/**/*",
-        "ignore": true
-      },
-      {
-        "pattern": "tests/**/*test.+(j|t)s?(x)",
-        "ignore": true
-      }
-    ],
-    "tests": [
-      "tests/**/*test.+(j|t)s?(x)",
-      "pages/**/*test.+(j|t)s?(x)",
-      "components/**/*test.+(j|t)s?(x)"
-    ],
-    "testFramework": "jest",
-    "env": {
-      "type": "node"
-    }
   }
 }
