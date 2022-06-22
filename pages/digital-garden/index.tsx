@@ -1,8 +1,11 @@
 import { GetStaticProps } from "next";
 import { Navbar } from "../../components/Navbar/Navbar";
 import { getAllThoughtSlugs } from "../../utils";
-import { GardenPosts } from "./GardenPosts/GardenPosts";
-import { GardenProps, ThoughtSummary } from "./interfaces";
+import { GardenPosts } from "../../components/GardenPosts/GardenPosts";
+import {
+  GardenProps,
+  ThoughtSummary,
+} from "../../components/GardenPosts/interfaces";
 
 const DigitalGarden = ({ thoughts }: GardenProps) => {
   return (

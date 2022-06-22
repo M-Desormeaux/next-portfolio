@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GardenProps } from "../interfaces";
+import { GardenProps } from "./interfaces";
 
 export const GardenPosts = ({ thoughts }: GardenProps) => {
   if (thoughts?.length === 0 || thoughts === undefined) {

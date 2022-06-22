@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { Navbar } from "../../components/Navbar/Navbar";
 import { getAllThoughtSlugs } from "../../utils";
-import { ThoughtProps } from "./interfaces";
+import { ThoughtProps } from "../../components/GardenPosts/interfaces";
 
 const Thought = ({ slug }: ThoughtProps) => {
   return (

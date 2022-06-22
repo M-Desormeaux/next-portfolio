@@ -1,4 +1,4 @@
-import { BlogProps } from "../interfaces";
+import { BlogProps } from "./interfaces";
 import Link from "next/link";
 
 export const BlogPosts = ({ posts }: BlogProps) => {

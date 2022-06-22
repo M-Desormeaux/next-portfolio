@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { Navbar } from "../../components/Navbar/Navbar";
 import { getAllPostSlugs } from "../../utils";
-import { PostProps } from "./interfaces";
+import { PostProps } from "../../components/BlogPosts/interfaces";
 
 const Post = ({ slug }: PostProps) => {
   return (

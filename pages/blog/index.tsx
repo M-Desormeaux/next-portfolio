@@ -1,5 +1,5 @@
-import { BlogProps, PostSummary } from "./interfaces";
-import { BlogPosts } from "./BlogPosts/BlogPosts";
+import { BlogProps, PostSummary } from "../../components/BlogPosts/interfaces";
+import { BlogPosts } from "../../components/BlogPosts/BlogPosts";
 import type { GetStaticProps } from "next";
 import { getAllPostSlugs } from "../../utils";
 import { Navbar } from "../../components/Navbar/Navbar";
