@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -14,13 +15,39 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.1",
+    "@types/jest": "^28.1.3",
     "@types/node": "^17.0.41",
     "@types/react": "^18.0.12",
+    "@types/react-test-renderer": "^18.0.0",
     "autoprefixer": "^10.4.7",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.1",
     "typescript": "^4.7.3"
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
+    ]
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.ts"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/.next/",
+      "<rootDir>/node_modules/"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "<rootDir>/"
+    ],
+    "testEnvironment": "jsdom"
   }
 }
