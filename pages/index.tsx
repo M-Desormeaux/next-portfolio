@@ -13,9 +13,8 @@ const Home = () => {
       </p>
       <p>
         You can get find me on
-        <a href="https://twitter.com/meliboi_">Twitter</a> or
-        <a href="https://www.linkedin.com/in/m-desormeaux/">LinkedIn</a>, though
-        I am far more active in checking twitter.
+        <a href="https://twitter.com/meliboi_"> Twitter</a> or
+        <a href="https://www.linkedin.com/in/m-desormeaux/"> LinkedIn</a>.
       </p>
     </div>
   );
