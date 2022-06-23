@@ -1,9 +1,19 @@
 import { Navbar } from "../components/Navbar/Navbar";
 
 const Home = () => {
-  const twitterLink = <a href="https://twitter.com/meliboi_">Twitter</a>;
+  const twitterLink = (
+    <a href="https://twitter.com/meliboi_" target="_blank" rel="noreferrer">
+      Twitter
+    </a>
+  );
   const linkedInLink = (
-    <a href="https://www.linkedin.com/in/m-desormeaux/">LinkedIn</a>
+    <a
+      href="https://www.linkedin.com/in/m-desormeaux/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      LinkedIn
+    </a>
   );
 
   return (
