@@ -32,4 +32,14 @@ Some of the important tech used on the developer side is: `Storybook and Wallaby
 
 ### Initial Complications
 
-So when initially setting this project up, i messed up the command and failed to install **Jest** properly with the flag, and 
+#### #1 Manual Jest Install
+
+So when initially setting this project up, i messed up the command and failed to install **Jest** properly with the flag, and ended up having to intall it manually which forced me - in the best way -  to look into the documentation and resolve why it wasn't working for me. This ended up just being me needing to adjust the target directories to search for tests.
+
+#### #2 Wallaby Acting Strange
+
+Due to lacking familiarity with this technology I initially struggled to get it working and have it function as expected. This was instantly resolved after getting **Jest** working properly in issue #1. Luckily this is noted in the [pull request](https://github.com/M-Desormeaux/next-portfolio/pull/5) for both future notation and a blog I will make involving this, seeing as I found limited information on using Wallaby with Nextjs.
+
+## Closing Thoughts
+
+So far, I am very happy with this technology stack, tho setting up Storybook has yet to happen, and will likely be its own challenge.
